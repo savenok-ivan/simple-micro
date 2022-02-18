@@ -1,0 +1,18 @@
+server:
+  port: 8002
+
+spring:
+  security:
+    user:
+      password: 1111
+      name: isavenok
+  profiles:
+    active: prod
+  config:
+    import: optional:configserver:${CONFIG_SERVER_URL:http://127.0.0.1:8001}
+  cloud:
+    config:
+      label: ${CONFIG_BRANCH:main}
+      username: isavenok
+      password: 1111
+
