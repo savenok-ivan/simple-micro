@@ -10,6 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: ${CONFIG_URI:E:\\projects\\github\\configs}
-          username: ${REPO_USER:isavenok}
-          password: ${REPO_PASS:isavenok}
+          uri: ${CONFIG_URI:https://github.com/savenok-ivan/simple-micro.git}
+          username: ${REPO_USER:savenok.ivan@gmail.com}
+          password: ${REPO_PASS:Azz244140}
+          basedir: app-config
