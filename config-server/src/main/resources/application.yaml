@@ -13,4 +13,4 @@ spring:
           uri: ${CONFIG_URI:https://github.com/savenok-ivan/simple-micro.git}
           username: ${REPO_USER:savenok.ivan@gmail.com}
           password: ${REPO_PASS:Azz244140}
-          basedir: app-config
+          search-paths: configs
