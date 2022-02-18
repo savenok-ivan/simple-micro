@@ -1,1 +1,8 @@
+server:
+  port: 8002
 
+spring:
+  security:
+    user:
+      password: 1111
+      name: isavenok

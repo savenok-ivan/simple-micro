@@ -18,6 +18,8 @@
     <modules>
         <module>gateway</module>
         <module>config-server</module>
+        <module>configs</module>
+        <module>app-config</module>
     </modules>
 
 </project>

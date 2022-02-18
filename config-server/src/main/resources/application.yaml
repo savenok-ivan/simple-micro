@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  security:
+    user:
+      password: 1111
+      name: isavenok
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${CONFIG_URI:E:\\projects\\github\\configs}
+          username: ${REPO_USER:isavenok}
+          password: ${REPO_PASS:isavenok}
